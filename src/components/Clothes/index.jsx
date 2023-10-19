@@ -27,7 +27,12 @@ function Clothes() {
           <Ims src={mobiuz} alt="" />
         </ImgBox>
         <Content className="content">
-          <button className="hello">Buy</button>
+          <button
+            onClick={() => navigate("/informationMobiuz")}
+            className="hello"
+          >
+            Buy
+          </button>
         </Content>
       </Card>
     </Row>
