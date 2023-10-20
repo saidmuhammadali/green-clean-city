@@ -12,7 +12,7 @@ function Navbar() {
         <A href="/home"> Home</A>
         <A href=""> About Us</A>
         <A href="/marketplace"> MarketPLace</A>
-        <A href="">Homeless people</A>
+        <A href="/location">Location</A>
       </Nav>
       <ButtonDiv>
         <Link

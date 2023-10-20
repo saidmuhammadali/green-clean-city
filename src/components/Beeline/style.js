@@ -1,19 +1,22 @@
-import Slider from "react-slick";
 import styled from "styled-components";
 
-const Carousel = styled(Slider)`
-  width: 500px;
-  height: 270px;
-`;
-const Wrap = styled.div``;
-const Dow = styled.div`
+const KottaDiv = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  gap: 1rem;
+  margin-top: 30px;
 `;
-const Img = styled.img`
-  width: 500px;
-  height: 270px;
-  border-radius: 10px;
+const BirinchCarta = styled.div`
+  border: 2px solid black;
+  width: 205px;
+  height: 300px;
+  background-color: white;
 `;
-export { Carousel, Wrap, Img, Dow };
+const Row = styled.div`
+  border: 1px solid white;
+`;
+const Rasm = styled.img`
+  width: 200px;
+  height: 140px;
+`;
+export { KottaDiv, BirinchCarta, Row, Rasm };

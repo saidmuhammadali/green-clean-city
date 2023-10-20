@@ -8,6 +8,7 @@ import Clothes from "../src/components/Clothes/index";
 import Food from "../src/components/Food/index";
 import Beeline from "../src/components/Beeline/index";
 import Mobiuz from "../src/components/Mobiuz/index";
+import Location from "../src/components/Location/location";
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ function App() {
           <Route path="/food" element={<Food />} />
           <Route path="/informationBeeline" element={<Beeline />} />
           <Route path="/informationMobiuz" element={<Mobiuz />} />
+          <Route path="/location" element={<Location />} />
         </Routes>
       </div>
     </BrowserRouter>
