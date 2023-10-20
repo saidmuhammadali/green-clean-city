@@ -3,6 +3,8 @@ import { auth, provider } from "./config";
 import { signInWithPopup } from "firebase/auth";
 import { Button } from "./style";
 import { FcGoogle } from "react-icons/fc";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./login.css";
 
 function SignUp() {
   const [value, setValue] = useState("");
@@ -17,25 +19,35 @@ function SignUp() {
   });
   return (
     <>
-      <div>
-        <h3>SignUp</h3>
-        <div>
-          <label htmlFor="email">Email</label>
-          <input type="email" placeholder="Enter Email" />
+      <div className="wrapper  d-flex align-itmes-center justify-content-center  w-100 ">
+        <div className="login ">
+          <h2 className="mb-3 ">Login</h2>
+          <form className="needs-validation">
+            <div className="form-group was-validated mb-2">
+              <label htmlFor="emial" className="form-label">
+                Email Adress
+              </label>
+              <input type="email" className="form-control" required></input>
+              <div className="invalid-feedback">munotogri email</div>
+            </div>
+            <div className="form-grou was-validated mb-2">
+              <label htmlFor="password" className="form-label">
+                Password
+              </label>
+              <input type="password" className="form-control" required></input>
+              <div className="invalid-feedback">munotogri parol</div>
+            </div>
+            <button type="submit" className="btn btn-primary mt-2 w-100">
+              SIGN UP
+            </button>
+            <Button onClick={handleClick}>
+              <FcGoogle
+                style={{ top: "-1px", left: "-8px", position: "relative" }}
+              />
+              Login with Google
+            </Button>
+          </form>
         </div>
-        <div>
-          <label htmlFor="password">Password</label>
-          <input type="password" placeholder="Enter Password" />
-        </div>
-        <div>
-          <button>SignIn</button>
-        </div>
-      </div>
-      <div>
-        <Button onClick={handleClick}>
-          <FcGoogle style={{ top: "3px", position: "relative" }} /> Sign with
-          Google
-        </Button>
       </div>
     </>
   );
