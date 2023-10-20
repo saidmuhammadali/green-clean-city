@@ -4,14 +4,14 @@ const Nav = styled.div`
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-top: -40px;
-  margin-left: 40px;
+  margin-top: -45px;
+  margin-left: 0px;
 `;
 const ImgDiv = styled.div``;
 const Img = styled.img`
-  width: 170px;
-  height: 40px;
-  margin-left: 20px;
+  width: 100px;
+  height: 60px;
+  margin-left: 50px;
   margin-top: 20px;
 `;
 const A = styled.a`

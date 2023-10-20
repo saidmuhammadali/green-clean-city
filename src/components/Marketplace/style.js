@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const MArketDiv = styled.div`
-  background-color: #4fbf34;
+  background-color: #0096ab;
   overflow: hidden;
   margin-top: 20px;
   border-radius: 10px;
@@ -20,7 +20,7 @@ const H = styled.a`
   text-decoration: none;
   transition: background-color 0.3s;
   &:hover {
-    background-color: green;
+    background-color: #004d72;
   }
 `;
 export { MArketDiv, H, RowDiv };
