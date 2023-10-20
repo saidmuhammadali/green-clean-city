@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 const Card = styled.div`
   position: relative;
-  width: 170px;
-  height: 100px;
+  width: 270px;
+  height: 130px;
   border-radius: 10px;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
   padding: 30px 50px;
@@ -13,7 +13,7 @@ const Card = styled.div`
   transition: 0.3s;
   overflow: hidden;
   &:hover {
-    height: 180px;
+    height: 220px;
   }
   &:hover > .content {
     opacity: 1;
