@@ -10,3 +10,24 @@
   border-radius: 5px;
   background-color: rgba(36, 4, 155, 0.5);
 }
+.as {
+  display: flex;
+  margin-top: -200px;
+  gap: 1rem;
+}
+.ass {
+  display: flex;
+  gap: 1rem;
+}
+.ha {
+  font-size: 22px;
+}
+.ce {
+  margin-top: -200px;
+}
+.haa {
+  font-size: 22px;
+  margin-top: 14px;
+}
+.w {
+}

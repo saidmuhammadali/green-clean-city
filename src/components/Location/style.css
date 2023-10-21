@@ -10,13 +10,30 @@
   width: 800px;
   height: 340px;
 }
+.asaa {
+  position: absolute;
+  top: 230px;
+  left: 170px;
+}
 .roww {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
+.as {
+  margin-left: 130px;
+}
+.ass {
+  margin-left: 130px;
+}
 .h1div {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+.ha {
+  margin-top: 40px;
+}
+.haa {
+  margin-top: 30px;
 }
