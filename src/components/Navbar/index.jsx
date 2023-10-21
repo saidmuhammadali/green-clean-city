@@ -2,6 +2,12 @@ import React from "react";
 import logo from "../../img/logo.png";
 import { Img, ImgDiv, Nav, A, ButtonDiv } from "./style";
 import { Link } from "react-router-dom";
+import { AiFillHome } from "react-icons/ai";
+import { FaUserAlt } from "react-icons/fa";
+import { FaShoppingCart } from "react-icons/fa";
+import { TiLocation } from "react-icons/ti";
+import { SiGnuprivacyguard } from "react-icons/si";
+
 function Navbar() {
   return (
     <>
@@ -9,10 +15,52 @@ function Navbar() {
         <Img src={logo} alt="" />
       </ImgDiv>
       <Nav>
-        <A href="/home"> Home</A>
-        <A href=""> About Us</A>
-        <A href="/marketplace"> MarketPLace</A>
-        <A href="/location">Location</A>
+        <A href="/home">
+          <AiFillHome
+            style={{
+              fontSize: "15px",
+              position: "relative",
+              left: "-3px",
+              top: "-0.5",
+            }}
+          />{" "}
+          Home
+        </A>
+        <A href="">
+          {" "}
+          <FaUserAlt
+            style={{
+              fontSize: "13px",
+              position: "relative",
+              left: "-5px",
+              top: "-0.5",
+            }}
+          />
+          About Us
+        </A>
+        <A href="/marketplace">
+          <FaShoppingCart
+            style={{
+              fontSize: "15px",
+              position: "relative",
+              left: "-3px",
+              top: "-0.5",
+            }}
+          />{" "}
+          MarketPLace
+        </A>
+        <A href="/location">
+          {" "}
+          <TiLocation
+            style={{
+              fontSize: "17px",
+              position: "relative",
+              left: "-3px",
+              top: "-0.5",
+            }}
+          />
+          Location
+        </A>
       </Nav>
       <ButtonDiv>
         <Link
@@ -29,6 +77,14 @@ function Navbar() {
           }}
           to="/signup"
         >
+          <SiGnuprivacyguard
+            style={{
+              fontSize: "14px",
+              position: "relative",
+              left: "-3px",
+              top: "-2",
+            }}
+          />{" "}
           Sign Up
         </Link>
       </ButtonDiv>

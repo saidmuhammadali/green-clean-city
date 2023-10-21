@@ -1,0 +1,22 @@
+.leaflet-container {
+  height: 300px;
+  width: 300px;
+  margin-left: 480px;
+  margin-top: 20px;
+}
+.divv {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 800px;
+  height: 340px;
+}
+.roww {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.h1div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

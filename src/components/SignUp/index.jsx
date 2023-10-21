@@ -28,14 +28,14 @@ function SignUp() {
                 Email Adress
               </label>
               <input type="email" className="form-control" required></input>
-              <div className="invalid-feedback">munotogri email</div>
+              <div className="invalid-feedback">Enter Email</div>
             </div>
             <div className="form-grou was-validated mb-2">
               <label htmlFor="password" className="form-label">
                 Password
               </label>
               <input type="password" className="form-control" required></input>
-              <div className="invalid-feedback">munotogri parol</div>
+              <div className="invalid-feedback">Enter password</div>
             </div>
             <button type="submit" className="btn btn-primary mt-2 w-100">
               SIGN UP
