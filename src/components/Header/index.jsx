@@ -8,7 +8,7 @@ function Header() {
       <motion.h1
         style={{
           fontFamily: "Anton",
-          color: "#004c72",
+          color: "wheat",
           marginLeft: "125px",
           marginTop: "110px",
         }}

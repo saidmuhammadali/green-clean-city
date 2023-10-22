@@ -16,7 +16,7 @@ const Img = styled.img`
 `;
 const A = styled.a`
   position: relative;
-  color: #0096ab;
+  color: white;
   font-family: "Anton", sans-serif;
   text-decoration: none;
   padding: 0 10px;
