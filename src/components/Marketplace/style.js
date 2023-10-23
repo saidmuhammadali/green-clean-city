@@ -23,4 +23,12 @@ const H = styled.a`
     background-color: #004d72;
   }
 `;
-export { MArketDiv, H, RowDiv };
+const Roww = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+const Da = styled.img`
+  width: 250px;
+  height: 250px;
+`;
+export { MArketDiv, H, RowDiv, Roww, Da };
