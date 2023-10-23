@@ -1,6 +1,6 @@
 .leaflet-container {
   height: 300px;
-  width: 423px;
+  width: 426px;
   margin-left: 430px;
   margin-top: 5px;
   border-radius: 5px;
@@ -15,10 +15,10 @@
 .back {
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.5);
-  width: 423px;
+  width: 426px;
   height: 300px;
   margin-top: -300px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .roww {
   display: flex;
