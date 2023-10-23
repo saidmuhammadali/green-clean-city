@@ -10,6 +10,11 @@ function Beeline() {
       <BirinchCarta>
         <Row>
           <Rasm src={bee} alt="" />
+          <h5>Tariflar</h5>
+          <p>
+            200 GB:10 coins <br />
+            500 SMS:8 coins
+          </p>
         </Row>
       </BirinchCarta>
       <BirinchCarta>

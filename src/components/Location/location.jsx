@@ -93,7 +93,7 @@ function Location() {
             <img className="img4" src={web} alt="" />
             <div className="text4">
               <h5>Email:</h5>
-              <p className="p4">GreenCleancity.com</p>
+              <p className="p4">GreenCleanCity.com</p>
             </div>
           </div>
         </div>
