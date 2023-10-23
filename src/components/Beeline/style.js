@@ -4,7 +4,7 @@ const KottaDiv = styled.div`
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 30px;
+  margin-top: 122px;
 `;
 const BirinchCarta = styled.div`
   border: 1px solid white;
