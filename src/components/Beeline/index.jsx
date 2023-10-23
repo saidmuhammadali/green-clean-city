@@ -10,11 +10,12 @@ function Beeline() {
       <BirinchCarta>
         <Row>
           <Rasm src={bee} alt="" />
-          <h5>Tariflar</h5>
-          <p>
+          <h5 style={{ textAlign: "center" }}>Tariflar</h5>
+          <p style={{ textAlign: "center" }}>
             200 GB:10 coins <br />
             500 SMS:8 coins
           </p>
+          <button style={{ marginLeft: "60px" }}>AddCard</button>
         </Row>
       </BirinchCarta>
       <BirinchCarta>
