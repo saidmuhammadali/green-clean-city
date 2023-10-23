@@ -1,39 +1,82 @@
 .leaflet-container {
   height: 300px;
-  width: 300px;
-  margin-left: 480px;
-  margin-top: 20px;
+  width: 423px;
+  margin-left: 430px;
+  margin-top: 5px;
+  border-radius: 5px;
 }
-.divv {
+.e4 {
+  margin-top: -118px;
+  margin-left: 160px;
+}
+.text4 {
+  margin-left: 33px;
+}
+.back {
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.5);
-  width: 800px;
-  height: 340px;
-}
-.asaa {
-  position: absolute;
-  top: 230px;
-  left: 170px;
+  width: 423px;
+  height: 300px;
+  margin-top: -300px;
+  margin-left: 20px;
 }
 .roww {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
-.as {
-  margin-left: 130px;
+.img1 {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
 }
-.ass {
-  margin-left: 130px;
+.img2 {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
 }
-.h1div {
+.img3 {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 40px;
+}
+
+.textdiv {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-}
-.ha {
+  color: white;
   margin-top: 40px;
 }
-.haa {
+.img4 {
+  width: 40px;
+  height: 40px;
+  margin-left: 35px;
+}
+.p4 {
+  font-size: 10px;
+  margin-left: -15px;
+}
+.p {
+  font-size: 10px;
+}
+.e {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+.e1 {
   margin-top: 30px;
+}
+.e3 {
+  margin-left: -180px;
+  margin-top: 30px;
+}
+.text {
+  text-align: center;
 }
