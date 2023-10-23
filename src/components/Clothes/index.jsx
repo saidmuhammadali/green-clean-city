@@ -1,7 +1,7 @@
 import React from "react";
 import beeline from "../../img/beeline.jpg";
 import mobiuz from "../../img/mobiuz.jpg";
-import ucell from "../../img/ucell.jpg";
+import ucell from "../../img/ucell.png";
 import Beeline from "../Beeline";
 import { Card, Content, ImgBox, Ims, Row } from "./style";
 import { useNavigate } from "react-router-dom";
@@ -43,7 +43,7 @@ function Clothes() {
         <Content className="content">
           <button
             className="hello"
-            onClick={() => navigate("/informationBeeline")}
+            onClick={() => navigate("/informationUcell")}
           >
             Buy
           </button>

@@ -9,6 +9,7 @@ import Food from "../src/components/Food/index";
 import Beeline from "../src/components/Beeline/index";
 import Mobiuz from "../src/components/Mobiuz/index";
 import Location from "../src/components/Location/location";
+import Ucell from "../src/components/Ucell/index";
 function App() {
   return (
     <BrowserRouter>
@@ -23,6 +24,7 @@ function App() {
           <Route path="/informationBeeline" element={<Beeline />} />
           <Route path="/informationMobiuz" element={<Mobiuz />} />
           <Route path="/location" element={<Location />} />
+          <Route path="/informationUcell" element={<Ucell />} />
         </Routes>
       </div>
     </BrowserRouter>

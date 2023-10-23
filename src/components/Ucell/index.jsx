@@ -1,13 +1,13 @@
 import React from "react";
-import mobi from "../../img/mobi.png";
-import mobii from "../../img/mobi2.png";
-import beee from "../../img/mobi3.jpg";
+import mobi from "../../img/ucell1.jpg";
+import ucelll from "../../img/ucell2.png";
+import beee from "../../img/ucell3.jpg";
 import { BirinchCarta, But, H1Bee, KottaDiv, Rasm, Row } from "./style";
 
-function Mobiuz() {
+function Ucell() {
   return (
     <>
-      <H1Bee>Mobiuz</H1Bee>
+      <H1Bee>Ucell</H1Bee>
       <KottaDiv>
         <BirinchCarta>
           <Row>
@@ -24,7 +24,7 @@ function Mobiuz() {
         </BirinchCarta>
         <BirinchCarta>
           <Row>
-            <Rasm src={mobii} alt="" />
+            <Rasm src={ucelll} alt="" />
             <h5 style={{ textAlign: "center", marginTop: "8px" }}>Tariffs</h5>
             <p style={{ textAlign: "center" }}>
               400 GB:15 coins <br />
@@ -53,4 +53,4 @@ function Mobiuz() {
   );
 }
 
-export default Mobiuz;
+export default Ucell;
