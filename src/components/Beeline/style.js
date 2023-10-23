@@ -14,21 +14,19 @@ const BirinchCarta = styled.div`
   border-radius: 3px;
   transition: background-color 0.4s, transform 0.4s, box-shadow 0.4s;
   &:hover {
-    background-color: #3498db;
+    background-color: #e0f8d5;
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    border: 2px solid blue;
+    border: 2px solid green;
   }
 `;
 const Row = styled.div`
   border-radius: 10px;
 `;
 const Rasm = styled.img`
-  width: 200px;
+  width: 201px;
   height: 140px;
   border-radius: 3px;
-  margin-left: 1px;
-  margin-top: 1px;
 `;
 const But = styled.button`
   border: none;
