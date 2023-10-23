@@ -14,7 +14,11 @@ function Location() {
       Popup: "Good morning Tashkent",
     },
     {
-      getcode: [41.310197, 69.279314],
+      getcode: [41.318041, 69.254012],
+      Popup: "hellooUzb",
+    },
+    {
+      getcode: [41.305373, 69.245014],
       Popup: "hellooUzb",
     },
     {
@@ -97,6 +101,7 @@ function Location() {
             </div>
           </div>
         </div>
+        <h6>.</h6>
       </div>
     </>
   );

@@ -7,20 +7,28 @@ const KottaDiv = styled.div`
   margin-top: 30px;
 `;
 const BirinchCarta = styled.div`
-  border: 2px solid black;
+  border: 1px solid white;
   width: 205px;
   height: 300px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 3px;
+  transition: background-color 0.4s, transform 0.4s, box-shadow 0.4s;
+  &:hover {
+    background-color: #3498db;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    border: 2px solid blue;
+  }
 `;
 const Row = styled.div`
-  border: 1px solid white;
   border-radius: 10px;
 `;
 const Rasm = styled.img`
   width: 200px;
   height: 140px;
-  border-radius: 10px;
+  border-radius: 3px;
+  margin-left: 1px;
+  margin-top: 1px;
 `;
 const But = styled.button`
   border: none;
