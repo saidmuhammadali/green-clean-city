@@ -28,7 +28,7 @@ const Roww = styled.div`
   justify-content: center;
 `;
 const Da = styled.img`
-  width: 250px;
-  height: 250px;
+  width: 277px;
+  height: 277px;
 `;
 export { MArketDiv, H, RowDiv, Roww, Da };
