@@ -28,7 +28,7 @@ function Combo() {
           <IMg src={combo} alt="" />
           <H1>Donar with beef </H1>
           <P>
-            pieces of juicy grilled beef, <br />
+            Pieces of juicy grilled beef, <br />
             fries, rice
           </P>
           <D>DiscountCard:30%</D>

@@ -11,6 +11,7 @@ import Mobiuz from "../src/components/Mobiuz/index";
 import Location from "../src/components/Location/location";
 import Ucell from "../src/components/Ucell/index";
 import Combo from "../src/components/Combo/index";
+import Drinks from "../src/components/Drinks/index";
 function App() {
   return (
     <BrowserRouter>
@@ -27,6 +28,7 @@ function App() {
           <Route path="/location" element={<Location />} />
           <Route path="/informationUcell" element={<Ucell />} />
           <Route path="/menuCombo" element={<Combo />} />
+          <Route path="/menuDrinks" element={<Drinks />} />
         </Routes>
       </div>
     </BrowserRouter>

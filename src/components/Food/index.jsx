@@ -26,7 +26,7 @@ function Clothes() {
         </ImgBox>
         <Content className="content">
           <button
-            onClick={() => navigate("/informationMobiuz")}
+            onClick={() => navigate("/menuDrinks")}
             className="hello"
           >
             Buy
