@@ -1,8 +1,10 @@
 import React from "react";
-import { Csa, HeaderDiv, HeaderImg, Img } from "./style";
+import { Bgn, Csa, HeaderDiv, HeaderImg, Img } from "./style";
 import city from "../../img/city.png";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 function Header() {
+  const navigate = useNavigate();
   return (
     <Csa>
       <motion.h1
@@ -10,7 +12,7 @@ function Header() {
           fontFamily: "Anton",
           color: "wheat",
           marginLeft: "125px",
-          marginTop: "140px",
+          marginTop: "110px",
         }}
         animate={{ opacity: 1 }}
         initial={{ opacity: 0 }}
@@ -18,6 +20,7 @@ function Header() {
       >
         Make the planet cleaner <br /> start with yourself
       </motion.h1>
+      <Bgn onClick={() => navigate("/aboutUs")}>AboutUs</Bgn>
       <HeaderDiv>
         <HeaderImg>
           <Img src={city} alt="" />

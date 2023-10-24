@@ -12,6 +12,8 @@ import Location from "../src/components/Location/location";
 import Ucell from "../src/components/Ucell/index";
 import Combo from "../src/components/Combo/index";
 import Drinks from "../src/components/Drinks/index";
+import About from "../src/components/About/index";
+import Fruit from "../src/components/Fruit/index";
 function App() {
   return (
     <BrowserRouter>
@@ -29,6 +31,8 @@ function App() {
           <Route path="/informationUcell" element={<Ucell />} />
           <Route path="/menuCombo" element={<Combo />} />
           <Route path="/menuDrinks" element={<Drinks />} />
+          <Route path="/aboutUs" element={<About />} />
+          <Route path="/menuFruit" element={<Fruit />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -3,7 +3,7 @@ import logo from "../../img/logo.png";
 import { Img, ImgDiv, Nav, A, ButtonDiv } from "./style";
 import { Link } from "react-router-dom";
 import { AiFillHome } from "react-icons/ai";
-import { FaUserAlt } from "react-icons/fa";
+import { RiMoneyEuroCircleLine } from "react-icons/ri";
 import { FaShoppingCart } from "react-icons/fa";
 import { TiLocation } from "react-icons/ti";
 import { SiGnuprivacyguard } from "react-icons/si";
@@ -28,15 +28,15 @@ function Navbar() {
         </A>
         <A href="">
           {" "}
-          <FaUserAlt
+          <RiMoneyEuroCircleLine
             style={{
-              fontSize: "13px",
+              fontSize: "18px",
               position: "relative",
               left: "-5px",
               top: "-0.5",
             }}
           />
-          About Us
+          Donation
         </A>
         <A href="/marketplace">
           <FaShoppingCart

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const HeaderDiv = styled.div`
-  margin-top: 20px;
+  margin-top: -15px;
   margin-right: 80px;
 `;
 const HeaderImg = styled.div`
@@ -9,6 +9,18 @@ const HeaderImg = styled.div`
   justify-content: end;
   margin-top: -175px;
   margin-right: 60px;
+`;
+const Bgn = styled.button`
+  text-decoration: none;
+  background-color: #4fbf34;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-family: Anton, sans-serif;
+  margin-left: 125px;
 `;
 const Csa = styled.div``;
 const Img = styled.img`
@@ -28,4 +40,4 @@ const Img = styled.img`
     }
   }
 `;
-export { HeaderDiv, HeaderImg, Img, Csa };
+export { HeaderDiv, HeaderImg, Img, Csa, Bgn };

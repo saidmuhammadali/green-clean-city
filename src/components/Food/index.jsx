@@ -25,10 +25,7 @@ function Clothes() {
           <Ims src={mobiuz} alt="" />
         </ImgBox>
         <Content className="content">
-          <button
-            onClick={() => navigate("/menuDrinks")}
-            className="hello"
-          >
+          <button onClick={() => navigate("/menuDrinks")} className="hello">
             Buy
           </button>
         </Content>
@@ -38,10 +35,7 @@ function Clothes() {
           <Ims src={ucell} alt="" />
         </ImgBox>
         <Content className="content">
-          <button
-            className="hello"
-            onClick={() => navigate("/informationUcell")}
-          >
+          <button className="hello" onClick={() => navigate("/menuFruit")}>
             Buy
           </button>
         </Content>
