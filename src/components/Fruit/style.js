@@ -27,7 +27,7 @@ const P = styled.p`
 const Btn = styled.button`
   border: none;
   padding: 5px 15px;
-  margin-left: 44px;
+  margin-left: 34px;
   border-radius: 5px;
   background-color: blue;
   color: white;
