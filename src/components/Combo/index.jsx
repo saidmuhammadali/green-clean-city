@@ -20,6 +20,7 @@ function Combo() {
             border: "2px solid white",
             height: "320px",
             borderRadius: "10px",
+            background: "black",
           }}
         >
           <IMg src={combo} alt="" />
@@ -34,25 +35,35 @@ function Combo() {
         <div
           style={{
             border: "2px solid white",
-            height: "290px",
+            height: "320px",
             borderRadius: "10px",
+            background: "black",
           }}
         >
           <IMg src={combo} alt="" />
-          <H1>Combo</H1>
-          <H1>Price:35%</H1>
+          <H1>Donar with beef </H1>
+          <P>
+            pieces of juicy grilled beef, <br />
+            fries, rice
+          </P>
+          <D>Price:30%</D>
           <Btn>Add to Cart</Btn>
         </div>
         <div
           style={{
             border: "2px solid white",
-            height: "290px",
+            height: "320px",
             borderRadius: "10px",
+            background: "black",
           }}
         >
           <IMg src={combo} alt="" />
-          <H1>Combo</H1>
-          <H1>Price:35%</H1>
+          <H1>Donar with beef </H1>
+          <P>
+            pieces of juicy grilled beef, <br />
+            fries, rice
+          </P>
+          <D>Price:30%</D>
           <Btn>Add to Cart</Btn>
         </div>
       </Row>
