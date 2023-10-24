@@ -17,8 +17,8 @@ function Ucell() {
               200 GB:10 coins <br />
               500 SMS:8 coins
             </p>
-            <But className="but" style={{ marginLeft: "60px" }}>
-              AddCard
+            <But className="but" style={{ marginLeft: "55px" }}>
+              Add to Card
             </But>
           </Row>
         </BirinchCarta>
@@ -30,8 +30,8 @@ function Ucell() {
               400 GB:15 coins <br />
               800 SMS:12 coins
             </p>
-            <But className="but" style={{ marginLeft: "60px" }}>
-              AddCard
+            <But className="but" style={{ marginLeft: "55px" }}>
+              Add to Card
             </But>
           </Row>
         </BirinchCarta>
@@ -43,8 +43,8 @@ function Ucell() {
               1.200 GB:20 coins <br />
               1.000 SMS:15 coins
             </p>
-            <But className="but" style={{ marginLeft: "60px" }}>
-              AddCard
+            <But className="but" style={{ marginLeft: "55px" }}>
+              Add to Card
             </But>
           </Row>
         </BirinchCarta>
