@@ -10,6 +10,7 @@ import Beeline from "../src/components/Beeline/index";
 import Mobiuz from "../src/components/Mobiuz/index";
 import Location from "../src/components/Location/location";
 import Ucell from "../src/components/Ucell/index";
+import Combo from "../src/components/Combo/index";
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +26,7 @@ function App() {
           <Route path="/informationMobiuz" element={<Mobiuz />} />
           <Route path="/location" element={<Location />} />
           <Route path="/informationUcell" element={<Ucell />} />
+          <Route path="/menuCombo" element={<Combo />} />
         </Routes>
       </div>
     </BrowserRouter>
