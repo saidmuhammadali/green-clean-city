@@ -1,66 +1,60 @@
 import styled from "styled-components";
 
-const Section = styled.div`
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  gap: 2rem;
-`;
-const Tef = styled.h1`
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif,
-    sans-serif;
-  color: #f4fcef;
-  display: flex;
-  justify-content: center;
-`;
-const Pa = styled.p`
-  margin: 5px;
-  margin-left: 25px;
-  margin-top: 10px;
-  font-family: "Gabarito", sans-serif;
-`;
-const Ha = styled.h6`
-  margin: 3px;
-  font-size: 15px;
-  margin-left: 25px;
-  margin-top: 10px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-`;
-const Buttom = styled.button`
-  cursor: pointer;
-  padding: 5px;
-  background-color: green;
-  border: none;
-  color: #e0f8d5;
-  outline: none;
-  border-radius: 5px;
-  margin-left: 25px;
-  margin-top: 10px;
-  transition: 0.2;
-  font-family: "Gabarito", sans-serif;
-  &:hover {
-    background-color: green;
-    transform: scale(1.2);
-  }
-  &:active {
-    transform: scale(0.8);
-  }
-`;
-const SectionDiv = styled.div`
-  width: 200px;
-  height: 275px;
+const Card = styled.div`
+  position: relative;
+  width: 270px;
+  height: 130px;
   border-radius: 10px;
-  background-color: white;
-  box-shadow: 0 5px 5px 5px rgba(13, 110, 253, 0.2);
-  border: 2px solid #0096ab;
-  border-radius: 3px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  padding: 30px 50px;
+  background: #fff;
+  margin: 20px;
+  top: 50px;
+  transition: 0.3s;
+  overflow: hidden;
+  &:hover {
+    height: 220px;
+  }
+  &:hover > .content {
+    opacity: 1;
+    transform: translateY(-70px);
+  }
 `;
-const Ids = styled.img`
-  width: 150px;
-  height: 150px;
-  margin-left: 25px;
-  margin-top: 10px;
+const Row = styled.div`
+  display: flex;
+  justify-content: center;
 `;
-export { Section, SectionDiv, Ids, Pa, Ha, Buttom, Tef };
+const ImgBox = styled.div`
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-20px);
+`;
+const Ims = styled.img`
+  width: 100%;
+  border-radius: 10px;
+`;
+const Content = styled.div`
+  padding: 10px 20px;
+  text-align: center;
+  transform: translateZ(-450px);
+  opacity: 0;
+  transition: 0.6s;
+  z-index: 100;
+  .hello {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    z-index: 200;
+    .hello:hover {
+      background-color: #2980b9;
+      transform: scale(1.1);
+    }
+  }
+`;
+
+export { Card, ImgBox, Ims, Content, Row };

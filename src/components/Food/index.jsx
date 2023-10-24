@@ -1,34 +1,56 @@
 import React from "react";
-import { Buttom, Ha, Ids, Pa, Section, SectionDiv, Tef } from "./style";
-import food from "../../img/food1.jpg";
-import foodd from "../../img/food2.jpg";
-import foosd from "../../img/food3.jpg";
-function Food() {
+import beeline from "../../img/beeline.jpg";
+import mobiuz from "../../img/mobiuz.jpg";
+import ucell from "../../img/ucell.png";
+import Beeline from "../Beeline";
+import { Card, Content, ImgBox, Ims, Row } from "./style";
+import { useNavigate } from "react-router-dom";
+
+function Clothes() {
+  const navigate = useNavigate();
   return (
-    <>
-      <Tef>Food</Tef>
-      <Section>
-        <SectionDiv>
-          <Ids src={food} alt="" />
-          <Pa>Food:Salad1</Pa>
-          <Ha>Price:20$</Ha>
-          <Buttom>Add-cart</Buttom>
-        </SectionDiv>
-        <SectionDiv>
-          <Ids src={foodd} alt="" />
-          <Pa>Food:Salad2</Pa>
-          <Ha>Price:30$</Ha>
-          <Buttom>Add-cart</Buttom>
-        </SectionDiv>
-        <SectionDiv>
-          <Ids src={foosd} alt="" />
-          <Pa>Food:Salad3</Pa>
-          <Ha>Price:50$</Ha>
-          <Buttom>Add-cart</Buttom>
-        </SectionDiv>
-      </Section>
-    </>
+    <Row>
+      <Card>
+        <ImgBox>
+          <Ims src={beeline} alt="" />
+        </ImgBox>
+        <Content className="content">
+          <button
+            className="hello"
+            onClick={() => navigate("/informationBeeline")}
+          >
+            Buy
+          </button>
+        </Content>
+      </Card>
+      <Card>
+        <ImgBox>
+          <Ims src={mobiuz} alt="" />
+        </ImgBox>
+        <Content className="content">
+          <button
+            onClick={() => navigate("/informationMobiuz")}
+            className="hello"
+          >
+            Buy
+          </button>
+        </Content>
+      </Card>
+      <Card>
+        <ImgBox>
+          <Ims src={ucell} alt="" />
+        </ImgBox>
+        <Content className="content">
+          <button
+            className="hello"
+            onClick={() => navigate("/informationUcell")}
+          >
+            Buy
+          </button>
+        </Content>
+      </Card>
+    </Row>
   );
 }
 
-export default Food;
+export default Clothes;
