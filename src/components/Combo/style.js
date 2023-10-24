@@ -13,16 +13,16 @@ const IMg = styled.img`
 `;
 const H1 = styled.h5`
   text-align: center;
-  color: white;
+  color: black;
 `;
 const D = styled.h5`
   text-align: center;
-  color: white;
+  color: black;
   margin-top: -10px;
 `;
 const P = styled.p`
   text-align: center;
-  color: white;
+  color: black;
 `;
 const Btn = styled.button`
   border: none;

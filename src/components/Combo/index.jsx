@@ -17,10 +17,10 @@ function Combo() {
       <Row>
         <div
           style={{
-            border: "2px solid white",
+            border: "3px solid black",
             height: "320px",
             borderRadius: "10px",
-            background: "black",
+            background: "white",
           }}
         >
           <IMg src={combo} alt="" />
@@ -34,10 +34,10 @@ function Combo() {
         </div>
         <div
           style={{
-            border: "2px solid white",
+            border: "3px solid black",
             height: "320px",
             borderRadius: "10px",
-            background: "black",
+            background: "white",
           }}
         >
           <IMg src={combo} alt="" />
@@ -51,10 +51,10 @@ function Combo() {
         </div>
         <div
           style={{
-            border: "2px solid white",
+            border: "3px solid black",
             height: "320px",
             borderRadius: "10px",
-            background: "black",
+            background: "white",
           }}
         >
           <IMg src={combo} alt="" />

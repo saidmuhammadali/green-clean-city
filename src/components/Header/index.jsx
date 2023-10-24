@@ -10,7 +10,7 @@ function Header() {
           fontFamily: "Anton",
           color: "wheat",
           marginLeft: "125px",
-          marginTop: "110px",
+          marginTop: "140px",
         }}
         animate={{ opacity: 1 }}
         initial={{ opacity: 0 }}
