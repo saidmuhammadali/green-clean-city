@@ -31,7 +31,7 @@ function Combo() {
             pieces of juicy grilled beef, <br />
             fries, rice
           </P>
-          <D>Price:30%</D>
+          <D>DiscountCard:30%</D>
           <Btn>Add to Cart</Btn>
         </div>
         <div
@@ -47,7 +47,7 @@ function Combo() {
           <P>
             Delicious Hot Dog Children's, <br /> natural children's juice
           </P>
-          <D>Price:18%</D>
+          <D>DiscountCard:18%</D>
           <Btn>Add to Cart</Btn>
         </div>
         <div
@@ -65,7 +65,7 @@ function Combo() {
             <br />
             monitors nutrition.
           </P>
-          <D>Price:50%</D>
+          <D>DiscountCard:50%</D>
           <Btn>Add to Cart</Btn>
         </div>
       </Row>
