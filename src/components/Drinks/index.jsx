@@ -47,7 +47,7 @@ function Drink() {
           <IMg src={comboe} alt="" />
           <H1>Mojito</H1>
           <P>
-            Mojito - cooling lemonade with <br /> aromatic lime juice,
+            Mojito cooling lemonade <br /> with aromatic lime juice,
           </P>
           <D>DiscountCard:15%</D>
           <Btn>Add to Cart</Btn>
