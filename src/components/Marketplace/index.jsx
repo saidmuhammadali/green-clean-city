@@ -22,7 +22,7 @@ function MarketPlace() {
             />
             Mobile Connections
           </H>
-          <H href="">
+          <H href="/uzumMarket">
             <LuGrape
               style={{ position: "relative", top: "-2px", left: "-3px" }}
             />

@@ -14,6 +14,7 @@ import Combo from "../src/components/Combo/index";
 import Drinks from "../src/components/Drinks/index";
 import About from "../src/components/About/index";
 import Fruit from "../src/components/Fruit/index";
+import Uzum from "../src/components/Uzum/index";
 function App() {
   return (
     <BrowserRouter>
@@ -33,6 +34,7 @@ function App() {
           <Route path="/menuDrinks" element={<Drinks />} />
           <Route path="/aboutUs" element={<About />} />
           <Route path="/menuFruit" element={<Fruit />} />
+          <Route path="/uzumMarket" element={<Uzum />} />
         </Routes>
       </div>
     </BrowserRouter>
