@@ -1,9 +1,9 @@
 import React from "react";
-import uzum from "../../img/uzum.png";
+import uzum from "../../img/assahiy.png";
 import { Card, Content, ImgBox, Ims, Row } from "./style";
 import { useNavigate } from "react-router-dom";
 
-function Uzum() {
+function Assahiy() {
   const navigate = useNavigate();
   return (
     <Row>
@@ -12,7 +12,7 @@ function Uzum() {
           <Ims src={uzum} alt="" />
         </ImgBox>
         <Content className="content">
-          <button className="hello" onClick={() => navigate("")}>
+          <button className="hello" onClick={() => navigate("/")}>
             Buy
           </button>
         </Content>
@@ -21,4 +21,4 @@ function Uzum() {
   );
 }
 
-export default Uzum;
+export default Assahiy;

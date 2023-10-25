@@ -17,7 +17,7 @@ const Card = styled.div`
   }
   &:hover > .content {
     opacity: 1;
-    transform: translateY(-70px);
+    transform: translateY(-90px);
   }
 `;
 const Row = styled.div`
@@ -28,7 +28,7 @@ const ImgBox = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
-  transform: translateY(-60px);
+  transform: translateY(-10px);
 `;
 const Ims = styled.img`
   width: 100%;

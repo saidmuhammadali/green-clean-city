@@ -28,7 +28,7 @@ function MarketPlace() {
             />
             Uzum
           </H>
-          <H href="">
+          <H href="/booksAssahiy">
             <BiSolidBookAlt
               style={{ position: "relative", top: "-1px", left: "-3px" }}
             />

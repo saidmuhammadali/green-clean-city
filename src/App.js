@@ -15,6 +15,7 @@ import Drinks from "../src/components/Drinks/index";
 import About from "../src/components/About/index";
 import Fruit from "../src/components/Fruit/index";
 import Uzum from "../src/components/Uzum/index";
+import Assahiy from "../src/components/Assahiy/index";
 function App() {
   return (
     <BrowserRouter>
@@ -35,6 +36,7 @@ function App() {
           <Route path="/aboutUs" element={<About />} />
           <Route path="/menuFruit" element={<Fruit />} />
           <Route path="/uzumMarket" element={<Uzum />} />
+          <Route path="/booksAssahiy" element={<Assahiy />} />
         </Routes>
       </div>
     </BrowserRouter>
