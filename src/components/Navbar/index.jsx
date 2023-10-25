@@ -26,7 +26,7 @@ function Navbar() {
           />{" "}
           Home
         </A>
-        <A href="">
+        <A href="/donation">
           {" "}
           <RiMoneyEuroCircleLine
             style={{

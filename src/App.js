@@ -16,6 +16,7 @@ import About from "../src/components/About/index";
 import Fruit from "../src/components/Fruit/index";
 import Uzum from "../src/components/Uzum/index";
 import Assahiy from "../src/components/Assahiy/index";
+import Donation from "../src/components/Donation/index";
 function App() {
   return (
     <BrowserRouter>
@@ -37,6 +38,7 @@ function App() {
           <Route path="/menuFruit" element={<Fruit />} />
           <Route path="/uzumMarket" element={<Uzum />} />
           <Route path="/booksAssahiy" element={<Assahiy />} />
+          <Route path="/donation" element={<Donation />} />
         </Routes>
       </div>
     </BrowserRouter>
