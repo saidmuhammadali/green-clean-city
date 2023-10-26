@@ -28,7 +28,12 @@ const Roww = styled.div`
   justify-content: center;
 `;
 const Da = styled.img`
-  width: 277px;
-  height: 277px;
+  width: 247px;
+  height: 247px;
 `;
-export { MArketDiv, H, RowDiv, Roww, Da };
+const Bg = styled.div`
+  height: 30px;
+  width: auto;
+  background-color: white;
+`;
+export { MArketDiv, H, RowDiv, Roww, Da, Bg };

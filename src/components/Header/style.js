@@ -40,4 +40,20 @@ const Img = styled.img`
     }
   }
 `;
-export { HeaderDiv, HeaderImg, Img, Csa, Bgn };
+const Bg = styled.div`
+  height: 30px;
+  width: auto;
+  background-color: white;
+  margin-top: 39.3px;
+`;
+const Icons = styled.div`
+  display: flex;
+  justify-content: end;
+  margin-right: 70px;
+  gap: 1rem;
+`;
+const H5 = styled.h6`
+  margin-top: -20px;
+  margin-left: 70px;
+`;
+export { HeaderDiv, HeaderImg, Img, Csa, Bgn, Bg, Icons, H5 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { MArketDiv, H, RowDiv, Roww, Da } from "./style";
+import { MArketDiv, H, RowDiv, Roww, Da, Bg } from "./style";
 import { MdFastfood } from "react-icons/md";
 import { MdSendToMobile } from "react-icons/md";
 import { LuGrape } from "react-icons/lu";
@@ -39,6 +39,7 @@ function MarketPlace() {
       <Roww>
         <Da src={bg} alt="" />
       </Roww>
+      <Bg></Bg>
     </>
   );
 }
