@@ -1,28 +1,10 @@
 import React from "react";
-import {
-  Bg,
-  Bgn,
-  Butt,
-  Csa,
-  DivInput,
-  H5,
-  HeaderDiv,
-  HeaderImg,
-  Icons,
-  Img,
-  Input,
-} from "./style";
+import { Bgn, Csa, HeaderDiv, HeaderImg, Img } from "./style";
 import city from "../../img/city.png";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import { AiFillInstagram } from "react-icons/ai";
-import { AiFillTwitterCircle } from "react-icons/ai";
-import { BsTelegram } from "react-icons/bs";
 function Header() {
   const navigate = useNavigate();
-  const instagramUrl = "https://www.instagram.com/team_1he_bests/";
-  const twitterUrl = "https://www.instagram.com/team_1he_bests/";
-  const telegramUrl = "https://www.instagram.com/team_1he_bests/";
   return (
     <>
       <Csa>
@@ -46,29 +28,6 @@ function Header() {
           </HeaderImg>
         </HeaderDiv>
       </Csa>
-      <Bg>
-        <Icons>
-          <a href={instagramUrl}>
-            {" "}
-            <AiFillInstagram style={{ marginTop: "3px", color: "black" }} />
-          </a>
-          <a href={twitterUrl}>
-            {" "}
-            <AiFillTwitterCircle style={{ marginTop: "3px", color: "black" }} />
-          </a>
-          <a href={telegramUrl}>
-            {" "}
-            <BsTelegram
-              style={{ marginTop: "3px", color: "black", fontSize: "15px" }}
-            />
-          </a>
-        </Icons>
-        <H5>GreenCleanCity</H5>
-        <DivInput>
-          <Input type="email" placeholder="Email" />
-          <Butt>Send</Butt>
-        </DivInput>
-      </Bg>
     </>
   );
 }

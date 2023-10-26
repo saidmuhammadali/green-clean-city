@@ -31,37 +31,5 @@ const Da = styled.img`
   width: 247px;
   height: 247px;
 `;
-const Bg = styled.div`
-  height: 30px;
-  width: auto;
-  background-color: white;
-`;
-const Icons = styled.div`
-  display: flex;
-  justify-content: end;
-  margin-right: 70px;
-  gap: 1rem;
-`;
-const H5 = styled.h6`
-  margin-top: -20px;
-  margin-left: 70px;
-`;
-const DivInput = styled.div`
-  display: flex;
-  justify-content: center;
-  margin-top: -25px;
-  gap: 1rem;
-`;
-const Input = styled.input`
-  height: 20px;
-`;
-const Butt = styled.button`
-  height: 20px;
-  width: 40px;
-  font-size: 10px;
-  border: none;
-  background-color: blue;
-  color: white;
-  border-radius: 5px;
-`;
-export { MArketDiv, H, RowDiv, Roww, Da, Bg, Input, Butt, DivInput, H5, Icons };
+
+export { MArketDiv, H, RowDiv, Roww, Da };

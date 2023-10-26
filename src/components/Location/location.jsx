@@ -58,29 +58,6 @@ function Location() {
           </MapContainer>
         </div>
       </div>
-      <div className="bg">
-        <div className="icon">
-          <a href={instagramUrl}>
-            {" "}
-            <AiFillInstagram style={{ marginTop: "3px", color: "black" }} />
-          </a>
-          <a href={twitterUrl}>
-            {" "}
-            <AiFillTwitterCircle style={{ marginTop: "3px", color: "black" }} />
-          </a>
-          <a href={telegramUrl}>
-            {" "}
-            <BsTelegram
-              style={{ marginTop: "3px", color: "black", fontSize: "15px" }}
-            />
-          </a>
-        </div>
-        <h5 className="h5">GreenCleanCity</h5>
-        <div className="divinput">
-          <input className="input" type="email" placeholder="Email" />
-          <button className="but">Send</button>
-        </div>
-      </div>
     </>
   );
 }
