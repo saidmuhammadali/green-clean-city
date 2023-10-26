@@ -35,17 +35,17 @@ function Header() {
           <div className="row">
             <div
               className="col-md-3 col-lg-3 col-12 ft-2"
-              style={{ marginTop: "-70px" }}
+              style={{ marginTop: "-80px" }}
             >
               <h5 style={{ fontSize: "15px" }}>Quick Links</h5>
               <ul>
                 <li className="nav-item">
-                  <a className="" href="/home" style={{ fontSize: "13px" }}>
+                  <a className="" href="/home" style={{ fontSize: "11px" }}>
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/Donation" style={{ fontSize: "13px" }}>
+                  <a className="" href="/Donation" style={{ fontSize: "11px" }}>
                     Donation
                   </a>
                 </li>
@@ -53,14 +53,14 @@ function Header() {
                   <a
                     className=""
                     href="/marketplace"
-                    style={{ fontSize: "13px" }}
+                    style={{ fontSize: "11px" }}
                   >
                     {" "}
                     MarketPlace
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="" href="/location" style={{ fontSize: "13px" }}>
+                  <a className="" href="/location" style={{ fontSize: "11px" }}>
                     Location
                   </a>
                 </li>
@@ -71,13 +71,21 @@ function Header() {
             <img
               src={logo}
               alt=""
-              style={{ width: "120px", height: "80px", marginTop: "-292px" }}
+              style={{ width: "50px", height: "30px", marginTop: "-342px" }}
             />
+            <p className="pp">
+              Lorem ipsum dolor sit <br /> amet consectetur,
+              <br /> adipisicing elit.
+            </p>
+          </div>
+          <div className="divbuton">
+            <input className="input" type="Email" placeholder="  Email" />
+            <button className="buttom">Subscribe</button>
           </div>
         </div>
       </div>
       <div className="Last-footer">
-        <p style={{ fontSize: "17px" }}>Design By Green Clean City</p>
+        <p style={{ fontSize: "10px" }}>Design By Green Clean City</p>
       </div>
     </>
   );

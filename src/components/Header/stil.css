@@ -13,7 +13,31 @@
   font-weight: 400;
   letter-spacing: 0.5px;
 }
-
+.divbuton {
+  margin-top: -95px;
+}
+.pp {
+  margin-top: -155px;
+  color: white;
+  font-size: 10px;
+}
+.input {
+  border: none;
+  width: 80px;
+  font-size: 13px;
+  border-radius: 2px;
+  background-color: #f6f6f6;
+  color: white;
+}
+.buttom {
+  font-size: 13px;
+  border: none;
+  width: 60px;
+  margin-left: 20px;
+  border-radius: 2px;
+  color: white;
+  background-color: #74a3ea;
+}
 .btn1 {
   border: 0;
   padding: 0.5rem 1.8rem;
@@ -102,7 +126,7 @@
 .Footer {
   background-color: #1c1c42;
   width: auto;
-  height: 220px;
+  height: 180px;
   margin-top: 69.6px;
 }
 .Last-footer {
