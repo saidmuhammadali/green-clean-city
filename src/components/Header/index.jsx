@@ -3,6 +3,7 @@ import { Bgn, Csa, HeaderDiv, HeaderImg, Img } from "./style";
 import city from "../../img/city.png";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+import logo from "../../img/logo.png";
 import "./stil.css";
 function Header() {
   const navigate = useNavigate();
@@ -65,6 +66,13 @@ function Header() {
                 </li>
               </ul>
             </div>
+          </div>
+          <div>
+            <img
+              src={logo}
+              alt=""
+              style={{ width: "120px", height: "80px", marginTop: "-292px" }}
+            />
           </div>
         </div>
       </div>
