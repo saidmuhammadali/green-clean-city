@@ -56,4 +56,34 @@ const H5 = styled.h6`
   margin-top: -20px;
   margin-left: 70px;
 `;
-export { HeaderDiv, HeaderImg, Img, Csa, Bgn, Bg, Icons, H5 };
+const DivInput = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: -25px;
+  gap: 1rem;
+`;
+const Input = styled.input`
+  height: 20px;
+`;
+const Butt = styled.button`
+  height: 20px;
+  width: 40px;
+  font-size: 10px;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+`;
+export {
+  HeaderDiv,
+  HeaderImg,
+  Img,
+  Csa,
+  Bgn,
+  Bg,
+  Icons,
+  H5,
+  DivInput,
+  Input,
+  Butt,
+};

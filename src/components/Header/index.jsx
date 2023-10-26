@@ -1,5 +1,17 @@
 import React from "react";
-import { Bg, Bgn, Csa, H5, HeaderDiv, HeaderImg, Icons, Img } from "./style";
+import {
+  Bg,
+  Bgn,
+  Butt,
+  Csa,
+  DivInput,
+  H5,
+  HeaderDiv,
+  HeaderImg,
+  Icons,
+  Img,
+  Input,
+} from "./style";
 import city from "../../img/city.png";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
@@ -52,6 +64,10 @@ function Header() {
           </a>
         </Icons>
         <H5>GreenCleanCity</H5>
+        <DivInput>
+          <Input type="email" placeholder="Email" />
+          <Butt>Send</Butt>
+        </DivInput>
       </Bg>
     </>
   );
