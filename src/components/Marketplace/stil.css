@@ -13,7 +13,35 @@
   font-weight: 400;
   letter-spacing: 0.5px;
 }
-
+.divbuton {
+  margin-top: -90px;
+  margin-left: 30px;
+}
+.pp {
+  margin-top: -155px;
+  margin-left: 30px;
+  color: #f4b13d;
+  font-size: 10px;
+}
+.input {
+  border: none;
+  width: 80px;
+  height: 24px;
+  font-size: 13px;
+  border-radius: 2px;
+  background-color: #f6f6f6;
+}
+.buttom {
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  width: 60px;
+  height: 24px;
+  margin-left: 20px;
+  border-radius: 2px;
+  color: #f4b13d;
+  background-color: #0066ff;
+}
 .btn1 {
   border: 0;
   padding: 0.5rem 1.8rem;
@@ -68,7 +96,7 @@
 }
 
 .Footer h5 {
-  color: #77ff00;
+  color: #f4b13d;
 }
 
 .ft-2 ul {
@@ -100,9 +128,9 @@
   font-size: 15px;
 }
 .Footer {
-  background-color: #1c1c42;
+  background-color: rgba(40, 4, 200, 0.533);
   width: auto;
-  height: 220px;
+  height: 180px;
   margin-top: 69.6px;
 }
 .Last-footer {

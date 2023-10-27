@@ -71,7 +71,12 @@ function Header() {
             <img
               src={logo}
               alt=""
-              style={{ width: "50px", height: "30px", marginTop: "-342px" }}
+              style={{
+                width: "50px",
+                height: "30px",
+                marginTop: "-342px",
+                marginLeft: "30px",
+              }}
             />
             <p className="pp">
               Lorem ipsum dolor sit <br /> amet consectetur,
