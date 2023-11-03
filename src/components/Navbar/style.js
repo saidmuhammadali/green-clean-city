@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Nav = styled.div`
   display: flex;
@@ -42,5 +43,23 @@ const ButtonDiv = styled.div`
   display: flex;
   justify-content: end;
 `;
-
-export { Nav, ImgDiv, Img, A, ButtonDiv };
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: white;
+  font-family: Anton;
+  background-color: #4fbf34;
+  padding: 5px 15px;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: linear-gradient(to right, white 50%, lightgreen 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  &:hover {
+    color: black;
+    border: 2px solid black;
+    background-position: left bottom;
+  }
+`;
+export { Nav, ImgDiv, Img, A, ButtonDiv, StyledLink };

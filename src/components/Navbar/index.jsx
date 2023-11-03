@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../img/logo.png";
-import { Img, ImgDiv, Nav, A, ButtonDiv } from "./style";
+import { Img, ImgDiv, Nav, A, ButtonDiv, StyledLink } from "./style";
 import { Link } from "react-router-dom";
 import { AiFillHome } from "react-icons/ai";
 import { RiMoneyEuroCircleLine } from "react-icons/ri";
@@ -63,20 +63,7 @@ function Navbar() {
         </A>
       </Nav>
       <ButtonDiv>
-        <Link
-          style={{
-            textDecoration: "none",
-            backgroundColor: "#4fbf34",
-            padding: "5px 15px",
-            cursor: "pointer",
-            transition: "background-color 0.3s ease",
-            borderRadius: "5px",
-            border: "none",
-            color: "#fff",
-            fontFamily: "Anton,sans-serif",
-          }}
-          to="/signup"
-        >
+        <StyledLink to="/signup">
           <SiGnuprivacyguard
             style={{
               fontSize: "14px",
@@ -86,7 +73,7 @@ function Navbar() {
             }}
           />{" "}
           Sign Up
-        </Link>
+        </StyledLink>
       </ButtonDiv>
     </>
   );

@@ -12,15 +12,23 @@ const HeaderImg = styled.div`
 `;
 const Bgn = styled.button`
   text-decoration: none;
+  margin-left: 123px;
+  color: white;
+  font-family: Anton;
   background-color: #4fbf34;
   padding: 5px 15px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  border-radius: 5px;
-  border: none;
-  color: #fff;
-  font-family: Anton, sans-serif;
-  margin-left: 125px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: linear-gradient(to right, white 50%, lightgreen 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  &:hover {
+    color: black;
+    border: 2px solid black;
+    background-position: left bottom;
+  }
 `;
 const Csa = styled.div``;
 const Img = styled.img`
@@ -41,10 +49,4 @@ const Img = styled.img`
   }
 `;
 
-export {
-  HeaderDiv,
-  HeaderImg,
-  Img,
-  Csa,
-  Bgn,
-};
+export { HeaderDiv, HeaderImg, Img, Csa, Bgn };
